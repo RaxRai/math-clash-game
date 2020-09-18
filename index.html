@@ -1,49 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8" />
-      <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
-      <link
-         href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
-         rel="stylesheet"
-      />
-      <link rel="stylesheet" href="index.css" />
-      <title>Math Clash 1.0</title>
-   </head>
-   <body>
-      <div class="container">
-         <div class="header center">MATH CLASH</div>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0" /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Math Clash 1.0</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header center min-width">MATH CLASH</div>
 
-         <div class="main">
-            <div class="top-section center">
-               <div class="numbers">
-                  <div class="first" id="first">
-                     <div class="diff-text">Difficulty</div>
-                  </div>
-                  <div class="second" id="second">
-                     <select name="difficulty" id="difficulty" class="">
-                        <option value="easy">Easy</option>
-                        <option value="medium">Medium</option>
-                        <option value="hard">Hard</option>
-                     </select>
-                  </div>
-               </div>
-               <div class="hud">
-                  <div id="highscore"></div>
-                  <div id="score" class="hide"></div>
-               </div>
+      <div class="main min-width">
+        <div class="top-section center">
+          <div class="numbers">
+            <div class="first" id="first">
+              <div class="diff-text">Difficulty</div>
             </div>
-            <div class="bottom-section center" id="bottom-section">
-               <div class="startGame" id="startGame">START GAME</div>
-               <div class="startGame hide" id="restart">
-                  RESTART
-               </div>
+            <div class="second" id="second">
+              <select name="difficulty" id="difficulty" class="">
+                <option value="easy">Easy</option>
+                <option value="medium">Medium</option>
+                <option value="hard">Hard</option>
+              </select>
             </div>
-         </div>
-
-         <div class="footer center">Created by RAJA RAI</div>
+          </div>
+          <div class="hud">
+            <div id="highscore"></div>
+            <div id="score" class="hide"></div>
+          </div>
+        </div>
+        <div class="bottom-section center" id="bottom-section">
+          <div class="startGame" id="startGame">START GAME</div>
+          <div class="startGame hide" id="restart">RESTART</div>
+        </div>
       </div>
 
-      <script src="index.js"></script>
-   </body>
+      <div class="footer center min-width">Created by RAJA RAI</div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
 </html>
